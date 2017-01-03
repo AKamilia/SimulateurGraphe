@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <nodes>
+    <node b="0.0" brightness="1" g="0.0" id="0" r="0.0" type="class com.diderot.GRectangle" weight="5" x="120.0" y="15.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="1" r="0.0" type="class com.diderot.GRectangle" weight="4" x="153.0" y="365.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="2" r="0.0" type="class com.diderot.GRectangle" weight="14" x="473.0" y="7.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="3" r="0.0" type="class com.diderot.GRectangle" weight="13" x="387.0" y="435.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="4" r="0.0" type="class com.diderot.GRectangle" weight="11" x="801.0" y="169.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="5" r="0.0" type="class com.diderot.GRectangle" weight="19" x="786.0" y="322.0"/>
+  </nodes>
+  <links>
+    <link from="0" fromType="class com.diderot.GRectangle" to="1" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="1" fromType="class com.diderot.GRectangle" to="2" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="2" fromType="class com.diderot.GRectangle" to="3" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="3" fromType="class com.diderot.GRectangle" to="4" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="4" fromType="class com.diderot.GRectangle" to="5" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="2" fromType="class com.diderot.GRectangle" to="5" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="1" fromType="class com.diderot.GRectangle" to="4" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="0" fromType="class com.diderot.GRectangle" to="5" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="0" fromType="class com.diderot.GRectangle" to="3" toType="class com.diderot.GRectangle" weight="1"/>
+  </links>
+</root>

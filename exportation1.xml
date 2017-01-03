@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <nodes>
+    <node b="0.0" brightness="1" g="0.0" id="0" r="0.0" type="class com.diderot.GCircle" weight="16" x="291.0" y="55.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="0" r="0.0" type="class com.diderot.GRectangle" weight="3" x="125.0" y="302.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="1" r="0.0" type="class com.diderot.GRectangle" weight="11" x="493.0" y="330.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="1" r="0.0" type="class com.diderot.GCircle" weight="1" x="347.0" y="204.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="2" r="0.0" type="class com.diderot.GRectangle" weight="12" x="539.0" y="54.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="2" r="0.0" type="class com.diderot.GCircle" weight="6" x="107.0" y="108.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="3" r="0.0" type="class com.diderot.GRectangle" weight="4" x="734.0" y="130.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="3" r="0.0" type="class com.diderot.GCircle" weight="5" x="302.0" y="408.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="4" r="0.0" type="class com.diderot.GRectangle" weight="18" x="659.0" y="415.0"/>
+    <node b="0.0" brightness="1" g="0.0" id="4" r="0.0" type="class com.diderot.GCircle" weight="17" x="564.0" y="223.0"/>
+  </nodes>
+  <links>
+    <link from="0" fromType="class com.diderot.GCircle" to="2" toType="class com.diderot.GCircle" weight="1"/>
+    <link from="2" fromType="class com.diderot.GCircle" to="0" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="0" fromType="class com.diderot.GRectangle" to="3" toType="class com.diderot.GCircle" weight="1"/>
+    <link from="3" fromType="class com.diderot.GCircle" to="1" toType="class com.diderot.GCircle" weight="1"/>
+    <link from="1" fromType="class com.diderot.GCircle" to="2" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="2" fromType="class com.diderot.GRectangle" to="3" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="3" fromType="class com.diderot.GRectangle" to="4" toType="class com.diderot.GCircle" weight="1"/>
+    <link from="4" fromType="class com.diderot.GCircle" to="1" toType="class com.diderot.GRectangle" weight="1"/>
+    <link from="1" fromType="class com.diderot.GRectangle" to="4" toType="class com.diderot.GRectangle" weight="1"/>
+  </links>
+</root>
